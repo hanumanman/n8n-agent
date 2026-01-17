@@ -6,11 +6,10 @@
   ],
   "scripts": {
     "dev": "bun --filter '*' dev",
-    "lint": "bun --filter '*' lint",
+    "lint": "bun --filter '*' lint --fix",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "prettier": "^3.8.0",
     "prettier-plugin-tailwindcss": "^0.7.2"
   }
