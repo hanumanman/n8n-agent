@@ -5,10 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "lint": "eslint .",
+    "dev": "bun --filter '*' dev",
+    "lint": "bun --filter '*' lint",
     "format": "prettier --write ."
   },
   "devDependencies": {
